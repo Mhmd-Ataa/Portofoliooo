@@ -1,0 +1,16 @@
+.card h3{
+    color: var(--primaryColor);
+    font-size: 35px;
+}
+.card p{
+    font-weight: 700;
+}
+.card h6{
+    color: var(--white);  
+}
+.projects{
+    background-image: url("../../../Assets/imgs/some-facts-bg.png");
+    background-position: center center;
+    background-size: contain;
+}
+

@@ -1,0 +1,49 @@
+
+button{
+    border-radius: 50px !important;
+    color: var(--white) !important;
+}
+.hero{
+    position: relative;
+    height: 90vh;
+}
+.hero::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-image: url('../../../../public/imgs/home-bg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+    height: 90vh;
+}
+.heroContainer{
+    max-width: 50%;
+    margin: auto;
+}
+.heroContainer h1{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--primaryColor);
+}
+.heroContainer h3{
+    color: var(--white);
+}
+
+@media (max-width:440px) {
+  
+    
+    .heroContainer{
+        max-width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .heroContainer h1{
+        font-size: 25px;
+    }
+    .heroContainer p{
+        font-size: 12px;
+    }
+}

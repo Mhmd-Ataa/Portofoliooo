@@ -1,0 +1,20 @@
+.card{
+    background-color: var(--black);
+    border-radius:20px ;
+}
+.card h5{
+    color: var(--white);
+}
+.card h6{
+    color: var(--primaryColor);
+}
+.card p{
+    color: var(--greyDark);
+}
+.title h1{
+    color: var(--primaryColor);
+    letter-spacing: 2px;
+}
+.services{
+    height: 100vh;
+}

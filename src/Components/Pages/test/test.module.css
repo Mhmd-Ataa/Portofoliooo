@@ -1,0 +1,36 @@
+.cursol img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px var(--primaryColor);
+}
+.big {
+    height: 90vh;
+    background-image: url("../../../Assets/imgs/testimonials-bg.png");
+    background-position: center;
+    background-size: cover;
+}
+.cursol h1{
+
+    font-size: 60px;
+    font-weight: 800;
+    background-color: var(--white);
+    width: 50px;
+    height: 60px;
+    margin: auto;
+    color: var(--primaryColor);
+}
+.cursol{
+    color: var(--white);
+}
+.cursol h5{
+    color: var(--primaryColor);
+}
+
+@media (max-width:440px) {
+    .cursol p{
+        font-size: 11px !important;
+    }
+    
+   
+}

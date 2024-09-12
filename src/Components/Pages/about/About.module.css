@@ -1,0 +1,26 @@
+.title h1{
+    color: var(--primaryColor);
+    letter-spacing: 2px;
+}
+.about{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+
+.about .title{
+    padding-bottom: 20px;
+}
+
+@media (max-width:440px) {
+    .second {
+        display: none;
+    }
+    .about .title{
+        margin-top: 30px !important;
+    }
+    .about{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
